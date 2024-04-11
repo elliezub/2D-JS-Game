@@ -93,7 +93,7 @@ k.scene("main", async () => {
   });
 
   k.onMouseDown((mouseBtn) => {
-    if (mouseBtn !== "right" || player.isInDialogue) return;
+    if (mouseBtn !== "left" || player.isInDialogue) return;
 
     const worldMousePos = k.toWorld(k.mousePos());
     player.moveTo(worldMousePos, player.speed);
