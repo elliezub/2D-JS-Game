@@ -19,6 +19,8 @@ k.loadSprite("map", "./map.png");
 
 k.setBackground(k.Color.fromHex("#311047"));
 
+k.loadSound("gamemusic", "./gamemusic.mp3");
+
 k.scene("main", async () => {
   const mapData = await (await fetch("./map.json")).json();
   const layers = mapData.layers;
@@ -149,6 +151,11 @@ k.scene("main", async () => {
     }
 
     player.play("idle-side");
+  });
+
+  k.play("gamemusic", {
+    loop: true,
+    volume: 10
   });
 });
 
