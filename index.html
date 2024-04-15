@@ -2,9 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://i.ibb.co/56FgSys/Untitled-Artwork-4.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta property="og:image" content="https://i.ibb.co/r3X0vm2/gamescsh.png" />
+    <meta
+      name="twitter:image"
+      content="https://i.ibb.co/r3X0vm2/gamescsh.png"
+    />
+    <title>Ellie's Forest</title>
   </head>
   <body>
     <style>
@@ -50,7 +59,7 @@
       }
 
       .ui-close-btn {
-        font-family:  monogram, monospace;
+        font-family: monogram, monospace;
         border-style: none;
         border-radius: 3px;
         padding: 1rem;
@@ -69,16 +78,15 @@
         top: 1vh;
         display: flex;
         flex-direction: column;
-        color: rgb(238,238,238);
+        color: rgb(238, 238, 238);
         user-select: none;
       }
-
     </style>
     <div id="app">
       <div id="ui">
         <p class="note">Tap/Left-click to move</p>
         <!-- change to right click ?? -->
-        <div id="textbox-container" style="display: none"> 
+        <div id="textbox-container" style="display: none">
           <div id="textbox">
             <p id="dialogue" class="ui-text"></p>
             <div class="btn-container">
