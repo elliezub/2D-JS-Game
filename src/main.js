@@ -25,6 +25,11 @@ k.scene("main", async () => {
   const mapData = await (await fetch("./map.json")).json();
   const layers = mapData.layers;
 
+  k.play("gamemusic", {
+    loop: true,
+    volume: 30
+  });
+
   const map = k.add([k.sprite("map"), k.pos(0), k.scale(scaleFactor)]);
 
   const player = k.make([
@@ -151,11 +156,6 @@ k.scene("main", async () => {
     }
 
     player.play("idle-side");
-  });
-
-  k.play("gamemusic", {
-    loop: true,
-    volume: 10
   });
 });
 
