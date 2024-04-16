@@ -4,7 +4,7 @@ export const dialogueData = {
   pc: `This is my PC. I work mostly in C#. Anyway regardless of the language, I just like coding.
       Here is my <a href="https://github.com/elliezub" target="_blank">Github</a>!
       Other than that, I use my PC to play League of Legends (I'm a Teemo main!), stardew valley, and some other games.`,
-  movie: `That's my TV. My favorite movies include: the Harry Potter series, Inception, and The Lord of the Rings. As for TV shows I love One Piece, Avatar the Last Airbender (animation), and bunch more.`,
+  movie: `That's my TV. My favorite movies include: the Harry Potter series, Inception, and The Lord of the Rings series. As for TV shows I love One Piece, Avatar the Last Airbender (animation), and a bunch more.`,
   bed: `This where I sleep. If I don't set an alarm I could sleep for 12 hours straight.`,
   resume: `This is my desk and on it is my resume. I should probably update it.
     Contact me at elliezub@gmail.com if you have any interesting job opportunities!`,
